@@ -11,5 +11,5 @@ let
     buildImage = dockerTools.buildImage;
 in
 {
-    # Containers here
+    steamcmd = buildImage (import ./tools/games/steamcmd { inherit pkgs; });
 }
