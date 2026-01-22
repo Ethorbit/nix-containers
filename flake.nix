@@ -1,5 +1,5 @@
 {
-    description = "Collection of reproducible container images built with Nix and nix2container by Ethorbit.";
+    description = "Collection of reproducible container images built with Nix by Ethorbit.";
 
     inputs = {
         nixpkgs.url = "github:nixos/nixpkgs/nixos-25.05";
