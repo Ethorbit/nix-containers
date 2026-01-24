@@ -11,5 +11,10 @@ let
     buildImage = dockerTools.buildImage;
 in
 {
-    steamcmd = buildImage (import ./tools/games/steamcmd { inherit pkgs; });
+    # Add containers here
+    # Note to self: 
+    # DO NOT TRY TO REINVENT THE WHEEL BY PORTING EXISTING IMAGES
+    # This only wastes very valuable time for absolutely no reason!
+    #
+    # If an image exists and it's based on Ubuntu, JUST USE IT!
 }
